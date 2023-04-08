@@ -1,144 +1,287 @@
-﻿
-p.Tweet_body__XtDoj  {
-      margin-bottom:  1px;
-      min-height:  5px;
-      font-size:  16px;
-      padding-right:  20px;
+﻿p.Tweet_body__XtDoj {
+    margin-bottom: 1px;
+    min-height: 5px;
+    font-size: 16px;
+    padding-right: 20px;
 }
 
-div.Tweet_TweetContainer__gC_9g  {
-      padding-top:  2px;
-      border-color:   #666666;
-      border-style: solid;
-      border-width:  1px;
-      border-radius:  6px ;
-      background-color:   #333333;
-      color:   #ffffff;
-      max-width:  490px;
-      padding-left:  3px;
-      padding-right:  3px;
+
+div.Tweet_TweetContainer__gC_9g {
+    padding-top: 2px;
+    border-color: #777777;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 6px;
+    background-color: #353535;
+    color: #ffffff;
+    max-width: 490px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 2px;
+    /*margin-bottom: 2px;*/
+    /* 境界線を1本分の太さに */
+    margin-top: -1px;
+    font-family: Meiryo;
 }
 
-div.Tweet_Tweet__bq4XS  {
-      padding-top:  2px;
-      padding-bottom:  2px;
+div.Tweet_Tweet__bq4XS {
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
-span.Tweet__reply  {
-      margin-bottom:  1px;
+span.Tweet__reply {
+    margin-bottom: 1px;
 }
 
-div.main  {
-      background-color:   #434343;
-      color:   #ffffff;
+div.main {
+    background-color: #252525;
+    color: #ffffff;
 }
 
-div p a  {
-      color:   #e69138;
+div p a {
+    color: #e69138;
 }
 
-span.Tweet_authorName__V3waK  {
-      color:   #cccccc;
+/* Tweet 名前 */
+span.Tweet_authorName__V3waK {
+    color: #dddddd;
+    font-weight: bold;
 }
 
-a.Tweet_authorID__B1U8c  {
-      color:   #f6b26b;
+/* Tweet アカウントID */
+a.Tweet_authorID__B1U8c {
+    color: #b6b6b6;
 }
 
-div time a  {
-      color:   #cccccc;
+div time a {
+    color: #999999;
 }
 
-#__next  {
-      background-color:   #434343;
-      color:   #ffffff;
+#__next {
+    background-color: #434343;
+    color: #ffffff;
 }
 
-#contents  {
-      background-color:   #434343;
+#contents {
+    background-color: #434343;
 }
 
-/* トレンド */
-article.Trend_Trend__00tOF.Trend_excursion__dBW6c.target_modules_viewability  {
-      display:  none;
+/* トレンド */
+article.Trend_Trend__00tOF.Trend_excursion__dBW6c.target_modules_viewability {
+    display: none;
 }
 
-/* 人気ツイート */
-div.PopularTweet_PopularTweet__FxVdZ.PopularTweet_excursion__dRxIT.target_modules_viewability  {
-      display:  none;
+/* 人気ツイート */
+div.PopularTweet_PopularTweet__FxVdZ.PopularTweet_excursion__dRxIT.target_modules_viewability {
+    display: none;
 }
 
-div.Tab_autoRefresh__IzzWV.target_modules_viewability  {
-        color:   #ffffff;
+div.Tab_autoRefresh__IzzWV.target_modules_viewability {
+    color: #ffffff;
 }
 
-p.Tab_current__hcdrK  {
-        color:   #ffffff;
+p.Tab_current__hcdrK {
+    color: #ffffff;
 }
 
-p.Chart_title___a587  {
-        color:   #ffffff;
+p.Chart_title___a587 {
+    color: #ffffff;
 }
 
-div.SearchBox_fixedWrap__h9X4V.SearchBox_fixed__XnfK2.SearchBox_isShadowed__aC9L2  {
-      background-color:   #666666;
+div.SearchBox_fixedWrap__h9X4V.SearchBox_fixed__XnfK2.SearchBox_isShadowed__aC9L2 {
+    background-color: #666666;
 }
 
-div span a  {
-      color:   #f6b26b;
+div span a {
+    color: #f6b26b;
 }
 
-/* 人気ツイート */
-div.PopularTweet_PopularTweet__FxVdZ.target_modules_viewability  {
-      display:  none;
+/* 人気ツイート */
+div.PopularTweet_PopularTweet__FxVdZ.target_modules_viewability {
+    display: none;
 }
 
-li em a  {
-      color:   #f3f3f3;
+li em a {
+    color: #f3f3f3;
 }
 
-div div p  {
-      color:   #f3f3f3;
+div div p {
+    color: #f3f3f3;
 }
 
-ul li em  {
-      background-color:   #666666;
+ul li em {
+    background-color: #666666;
 }
 
-/* 引用リツイート (スクリーン名) */
-span.QuotedTweet_screenname__Wmucu  {
-      color:   #f3f3f3;
+/* 引用リツイート (スクリーン名) */
+span.QuotedTweet_screenname__Wmucu {
+    color: #f3f3f3;
 }
 
-/* 引用リツイート (アカウント名) */
-a.QuotedTweet_name__jdcMK  {
-      color:   #f6b26b;
+/* 引用リツイート (アカウント名) */
+a.QuotedTweet_name__jdcMK {
+    color: #f6b26b;
 }
 
-/* 引用リツイート */
-div.QuotedTweet_QuotedTweet__Dot6K  {
-      max-height:  70px;
-      /* 高さ制限して省略表示 */
-      text-overflow:  ellipsis;
-      overflow:  hidden;
-      border-color: #999999 ;
+/* 引用リツイート */
+div.QuotedTweet_QuotedTweet__Dot6K {
+    max-height: 70px; /* 高さ制限して省略表示 */
+    text-overflow: ellipsis;
+    overflow: hidden;
+    border-color: #999999;
 }
 
-/* 引用リツイート (マウスオーバー時) */
-div.QuotedTweet_QuotedTweet__Dot6K:hover  {
-      background-color: #999999;
+    /* 引用リツイート (マウスオーバー時) */
+    div.QuotedTweet_QuotedTweet__Dot6K:hover {
+        background-color: #999999;
+    }
+
+/* アイコン */
+a.Tweet_icon__ADmHM {
+    border-radius: 4px;
+    border-color: slategray;
+    border-width: 0px;
 }
 
-/* アイコン */
-a.Tweet_icon__ADmHM  {
-      border-radius:  4px;
-      border-color: slategray;
-      border-width:  0px;
+/* ::before (下▼)メニューボタン */
+a.Tweet_TweetMenu__44l_v {
+    width: 20px;
+    height: 20px;
+    margin-right: 2px;
 }
 
-/* ::before (下▼)メニューボタン */
-a.Tweet_TweetMenu__44l_v  {
-      width:  20px;
-      height:  20px;
-      margin-right:  2px;
+article#atkey.Trend_Trend__00tOF.target_modules_viewability {
+    background-color: #cccccc;
+}
+
+article.HotBuzz_HotBuzz__W52Lv.target_modules_viewability {
+    background-color: #cccccc;
+}
+
+ul li a {
+    color: #aaaaaa;
+}
+
+ul li strong {
+    color: #ffffff;
+}
+
+
+/* TV欄 */
+article.TVBuzzItem_TVBuzzItem__roJ_T {
+    background-color: #b7b7b7;
+}
+/* TV欄 (ch) */
+p.TVBuzzItem_no__25HZV {
+    color: #434343;
+    background-color: #b7b7b7;
+}
+
+#msthdtp {
+    background-color: #d9d9d9;
+}
+
+/* Yahoo リアルタイム検索ロゴ */
+div.logo {
+    background-color: #b7b7b7;
+}
+
+/* タブ (画像・動画) */
+.Tab_TabContainer__bsWoS .Tab_Tab__taDrE ul li a {
+    background-color: #666666;
+}
+
+/* もっと見る ボタン */
+div.More_button__m0o9o {
+    background-color: #666666;
+}
+
+/* 新着マーク (TL上) */
+.AutoscrollPartition_AutoscrollPartition__AzAyl p span {
+    background-color: #cccccc;
+}
+
+/* 新着数表示 (右下) */
+.ToTop_ToTop__VwAmy p {
+    background-color: #666666;
+}
+
+input.SearchBox_searchInput__lM2Gv {
+    color: #ffffff;
+    background-color: #888888;
+}
+
+.SearchBox_searchInputWrap__EH764 {
+    background-color: #888888;
+}
+
+/* ID前のTwitter 青アイコン, リプ・RT・いいね・検索ボックス右×・虫めがね のマーク */
+svg.riff-text-current {
+    display: none;
+}
+
+/* リプ・RT・いいね の数 */
+ul.Tweet_action__M2b83 {
+    display: none;
+}
+
+/* ツイート時刻 右寄せ */
+time.Tweet_time__78Ddq {
+    margin-left: auto;
+}
+
+/* 検索ボックス 右× */
+button.SearchBox_clearButton__ZekWO.cl-nofollow {
+    background-color: #888888;
+}
+
+/* 自動更新チェックボックス (ON) */
+label.Tab_on__cXzYq {
+    top: -10px;
+    height: 150%;
+    background-color: #ffd966
+}
+/* 自動更新チェックボックス (OFF) */
+label.Tab_off__wzixv {
+    top: -10px;
+    height: 150%
+}
+
+
+/* -------------------------------- */
+/* 画像・動画タグ */
+div.Tweet_imageContainerWrapper__wPE0R {
+    max-height: 240px;
+    height: auto;
+    object-fit: contain;
+}
+
+div.Tweet_imageContainer__G8A9R img {
+    background-size: contain;
+    object-fit: contain;
+    height: 120px;
+}
+
+div.Tweet_imageContainerDivider__z0uGB {
+    background-size: contain;
+    object-fit: contain;
+    /*flex-basis: 35%;*/
+    /*max-height: 70%;*/
+    /*width:auto;*/
+}
+
+li.MuteList_listItem__zePbz {
+    background-color: #434343;
+}
+
+/* ミュートボタン */
+a.MuteList_button__hHBBX {
+    color: #ffffff;
+    border-color: #6666ee;
+}
+
+
+/* sensitive */
+article.SensitiveMask_SensitiveMask__I1xS9 {
+    background-color: #666666;
 }
