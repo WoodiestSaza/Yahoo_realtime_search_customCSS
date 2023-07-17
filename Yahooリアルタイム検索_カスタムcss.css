@@ -285,3 +285,9 @@ a.MuteList_button__hHBBX {
 article.SensitiveMask_SensitiveMask__I1xS9 {
     background-color: #666666;
 }
+
+
+/* 検索サジェスト */
+.SearchAssist_SearchAssist___7dyR {
+    display: none;
+}
