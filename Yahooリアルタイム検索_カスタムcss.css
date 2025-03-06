@@ -5,6 +5,13 @@
     padding-right: 20px;
 }
 
+/* 2025 03 26 */
+p.Tweet_body__3tH8T {
+    margin-bottom: 1px;
+    min-height: 5px;
+    font-size: 16px;
+    padding-right: 20px;
+}
 
 div.Tweet_TweetContainer__gC_9g {
     padding-top: 2px;
@@ -122,6 +129,14 @@ span.QuotedTweet_screenname__Wmucu {
 a.QuotedTweet_name__jdcMK {
     color: #f6b26b;
 }
+/* 2025 03 06 */
+span.QuotedTweet_screenname__TAdvl {
+    color: #f3f3f3;
+}
+
+a.QuotedTweet_name__01rjy {
+    color: #f6b26b;
+}
 
 /* 引用リツイート */
 div.QuotedTweet_QuotedTweet__Dot6K {
@@ -135,6 +150,19 @@ div.QuotedTweet_QuotedTweet__Dot6K {
     div.QuotedTweet_QuotedTweet__Dot6K:hover {
         background-color: #999999;
     }
+
+/* 2025 03 06 */
+div.QuotedTweet_QuotedTweet__XHRkA {
+    max-height: 70px; /* 高さ制限して省略表示 */
+    text-overflow: ellipsis;
+    overflow: hidden;
+    border-color: #999999;
+}
+
+    div.QuotedTweet_QuotedTweet__XHRkA:hover {
+        background-color: #999999;
+    }
+
 
 /* アイコン */
 a.Tweet_icon__ADmHM {
@@ -206,6 +234,7 @@ div.More_button__m0o9o {
     background-color: #666666;
 }
 
+/* 検索ボックス */
 input.SearchBox_searchInput__lM2Gv {
     color: #ffffff;
     background-color: #888888;
@@ -215,13 +244,33 @@ input.SearchBox_searchInput__lM2Gv {
     background-color: #888888;
 }
 
+/* 2025 03 06 */
+input.SearchBox_searchInput__5LNhz {
+    color: #ffffff;
+    background-color: #888888;
+}
+
+div.SearchBox_searchInputWrap__M_KgB {
+    background-color: #888888;
+}
+
+
 /* ID前のTwitter 青アイコン, リプ・RT・いいね・検索ボックス右×・虫めがね のマーク */
 svg.riff-text-current {
     display: none;
 }
 
+
+
+
+
 /* リプ・RT・いいね の数 */
 ul.Tweet_action__M2b83 {
+    display: none;
+}
+
+/* 2025 03 06 */
+ul.Tweet_action__2GvMa {
     display: none;
 }
 
@@ -230,10 +279,23 @@ time.Tweet_time__78Ddq {
     margin-left: auto;
 }
 
+/* 2025 03 25 */
+time.Tweet_time__GS_jw {
+    margin-left: auto;
+}
+
+
 /* 検索ボックス 右× */
 button.SearchBox_clearButton__ZekWO.cl-nofollow {
     background-color: #888888;
 }
+
+/* 2025 03 06 */
+button.SearchBox_clearButton__pz8Ig.cl-nofollow {
+    background-color: #888888;
+}
+
+
 
 /* 自動更新チェックボックス (ON) */
 label.Tab_on__cXzYq {
@@ -247,6 +309,18 @@ label.Tab_off__wzixv {
     height: 150%
 }
 
+/* 2025 03 06 */
+label.Tab_on__8T98V {
+    top: -10px;
+    height: 150%;
+    background-color: #ffd966
+}
+
+label.Tab_off__rzzQy {
+    top: -10px;
+    height: 150%
+}
+
 
 /* -------------------------------- */
 /* 画像・動画タグ */
@@ -255,8 +329,20 @@ div.Tweet_imageContainerWrapper__wPE0R {
     height: auto;
     object-fit: contain;
 }
+/* 2025 03 06 */
+div.Tweet_imageContainerWrapper__O_jSd {
+    max-height: 240px;
+    height: auto;
+    object-fit: contain;
+}
 
 div.Tweet_imageContainer__G8A9R img {
+    background-size: contain;
+    object-fit: contain;
+    height: 120px;
+}
+/* 2025 03 06 */
+div.Tweet_imageContainer__8KC7A img {
     background-size: contain;
     object-fit: contain;
     height: 120px;
@@ -269,6 +355,12 @@ div.Tweet_imageContainerDivider__z0uGB {
     /*max-height: 70%;*/
     /*width:auto;*/
 }
+/* 2025 03 06 */
+div.Tweet_imageContainerDivider__F18Zb {
+    background-size: contain;
+    object-fit: contain;
+}
+
 
 li.MuteList_listItem__zePbz {
     background-color: #434343;
@@ -286,8 +378,38 @@ article.SensitiveMask_SensitiveMask__I1xS9 {
     background-color: #666666;
 }
 
-
 /* 検索サジェスト */
 .SearchAssist_SearchAssist___7dyR {
+    display: none;
+}
+
+/* 2025 03 06 */
+.SearchAssist_SearchAssist__7lj_w {
+    display: none;
+}
+
+div.Tweet_TweetContainer__aezGm.Tweet_overall__a5p_9 {
+    padding-top: 2px;
+    border-color: #777777;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 6px;
+    background-color: #353535;
+    color: #ffffff;
+    max-width: 490px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 2px;
+    /*margin-bottom: 2px;*/
+    /* 境界線を1本分の太さに */
+    margin-top: -1px;
+    font-family: Meiryo;
+}
+
+article.Trend_Trend__GZ_fj.Trend_excursion__vqQEg.target_modules_viewability {
+    display: none;
+}
+
+div.PopularTweet_PopularTweet__rYQe1.PopularTweet_excursion__cjGoE.target_modules_viewability {
     display: none;
 }
